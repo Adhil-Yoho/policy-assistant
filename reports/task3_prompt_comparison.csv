@@ -1,0 +1,38 @@
+question,answerable,prompt_type,retrieved_context_count,answer,manual_hallucination_flag
+What is the minimum password length?,True,basic,4,"Based on the ABC Technologies Operational and Communication Guidelines (2026), passwords must have **at least 16 characters**.",0
+What is the minimum password length?,True,context_only,4,Passwords must have at least 16 characters.,0
+What is the minimum password length?,True,context_citation_abstention,4,"Passwords must have at least 16 characters. [Source: company_guidelines.pdf, Page 1]",0
+How many annual PTO days are provided?,True,basic,4,"According to the 2026 Employee Policy, full-time employees accrue **12 days of paid time off per calendar year** (at a rate of one day per month).",0
+How many annual PTO days are provided?,True,context_only,4,"According to the 2026 Employee Policy, full-time employees accrue 12 days of paid time off per calendar year.",0
+How many annual PTO days are provided?,True,context_citation_abstention,4,"Full-time employees accrue 12 days of paid time off per calendar year. [Source: employee_policy.pdf, Page 1]",0
+How many paid sick leave days are provided?,True,basic,4,Employees receive 10 paid sick leave days per year.,0
+How many paid sick leave days are provided?,True,context_only,4,Employees receive 10 paid sick leave days per year.,0
+How many paid sick leave days are provided?,True,context_citation_abstention,4,"Employees receive 10 paid sick leave days per year. [Source: employee_policy.pdf, Page 1]",0
+What is the primary caregiver parental leave duration?,True,basic,4,Primary caregivers receive 16 weeks of paid parental leave.,0
+What is the primary caregiver parental leave duration?,True,context_only,4,Primary caregivers receive 16 weeks of paid parental leave.,0
+What is the primary caregiver parental leave duration?,True,context_citation_abstention,4,"Primary caregivers receive 16 weeks of paid parental leave. [Source: employee_policy.pdf, Page 1]",0
+What is the annual learning and development stipend?,True,basic,4,"The annual Learning and Development stipend is **$1,500 per calendar year**.",0
+What is the annual learning and development stipend?,True,context_only,4,The Learning and Development stipend is 1500 dollars per calendar year.,0
+What is the annual learning and development stipend?,True,context_citation_abstention,4,"The annual Learning and Development stipend is $1,500 per calendar year. [Source: employee_handbook.docx, Page 1]",0
+What should employees do when using public Wi-Fi?,True,basic,4, Employees must use the corporate VPN when using public wifi.,0
+What should employees do when using public Wi-Fi?,True,context_only,4,Employees must use the corporate VPN on public Wi-Fi.,0
+What should employees do when using public Wi-Fi?,True,context_citation_abstention,4,"Employees must use the corporate VPN on public Wi-Fi. [Source: company_guidelines.pdf, Page 1]",0
+What should an employee do after discovering a security incident?,True,basic,4,"Based on the incident response policy, an employee who discovers a security incident should:
+
+1. **Report it immediately** through the company security reporting channel
+2. **Include in the report**: time of discovery, affected systems, observed symptoms, and actions already taken
+3. **Not investigate** beyond their authorization level
+4. **Share incident details only** with authorized personnel
+
+The Security Team will then coordinate containment, investigation, and recovery.",0
+What should an employee do after discovering a security incident?,True,context_only,4,"After discovering a security incident, an employee must report it immediately through the company security reporting channel. The report should include the time of discovery, affected systems, observed symptoms, and actions already taken. Employees must not investigate beyond their authorization, and incident details must be shared only with authorized personnel. The Security Team coordinates containment, investigation, and recovery.",0
+What should an employee do after discovering a security incident?,True,context_citation_abstention,4,"After discovering a security incident, an employee must report it immediately through the company security reporting channel. The report should include the time of discovery, affected systems, observed symptoms, and actions already taken. Employees must not investigate beyond their authorization, and incident details must be shared only with authorized personnel. The Security Team coordinates containment, investigation, and recovery. [Source: incident_response.txt, Page 1]",0
+Who won the FIFA World Cup?,False,basic,4,"The provided context does not contain any information about the FIFA World Cup or its winners. The documents only include company policies related to travel, employee benefits, access control, and operational guidelines from ABC Technologies.",0
+Who won the FIFA World Cup?,False,context_only,4,"The provided context does not contain any information about the FIFA World Cup or its winners. The documents only include company policies related to travel, employee benefits, access control, and operational guidelines from 2024 and 2026.",0
+Who won the FIFA World Cup?,False,context_citation_abstention,4,I don't have information on that,0
+What is the current price of Bitcoin?,False,basic,4,"The provided context does not contain any information about the current price of Bitcoin. The documents cover ABC Technologies' technical platform specifications, employee handbook policies, operational guidelines, and an outdated 2024 policy—none of which mention cryptocurrency or Bitcoin pricing.",0
+What is the current price of Bitcoin?,False,context_only,4,"The provided context does not contain any information about the current price of Bitcoin. The documents cover ABC Technologies' technical platform specifications, employee handbook policies, operational guidelines, and an outdated 2024 policy—none of which mention cryptocurrency prices.",0
+What is the current price of Bitcoin?,False,context_citation_abstention,4,I don't have information on that,0
+What is the capital of Japan?,False,basic,4,"The provided context does not contain information about the capital of Japan. The documents only cover ABC Technologies' operational guidelines, travel policies, technical platform details, and an outdated HR policy.",0
+What is the capital of Japan?,False,context_only,4,"The provided context does not contain information about the capital of Japan. The documents only cover ABC Technologies' operational guidelines, travel policies, technical platform details, and an outdated HR policy.",0
+What is the capital of Japan?,False,context_citation_abstention,4,I don't have information on that,0

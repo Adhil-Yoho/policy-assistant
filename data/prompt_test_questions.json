@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the minimum password length?",
+    "answerable": true
+  },
+  {
+    "question": "How many annual PTO days are provided?",
+    "answerable": true
+  },
+  {
+    "question": "How many paid sick leave days are provided?",
+    "answerable": true
+  },
+  {
+    "question": "What is the primary caregiver parental leave duration?",
+    "answerable": true
+  },
+  {
+    "question": "What is the annual learning and development stipend?",
+    "answerable": true
+  },
+  {
+    "question": "What should employees do when using public Wi-Fi?",
+    "answerable": true
+  },
+  {
+    "question": "What should an employee do after discovering a security incident?",
+    "answerable": true
+  },
+  {
+    "question": "Who won the FIFA World Cup?",
+    "answerable": false
+  },
+  {
+    "question": "What is the current price of Bitcoin?",
+    "answerable": false
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "answerable": false
+  }
+]
