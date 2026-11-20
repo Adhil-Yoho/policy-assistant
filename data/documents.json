@@ -1,0 +1,92 @@
+[
+  {
+    "id": "DOC001",
+    "title": "Company Operational Guidelines",
+    "source": "company_guidelines.pdf",
+    "department": "Operations",
+    "year": 2026,
+    "doc_type": "guidelines",
+    "page": 1,
+    "text": "ABC Technologies Operational and Communication Guidelines. Last reviewed February 2026. Slack is used for real-time collaboration and quick questions. Expected response time during core hours is within 4 hours. Email is used for formal announcements, external vendor communication and approvals, with an expected response time within 1 business day. Confluence and Wiki are used for permanent documentation, architecture specifications and meeting notes. Meetings longer than 15 minutes must include an agenda and a designated note-taker. Multi-Factor Authentication is mandatory across corporate accounts. Passwords must have at least 16 characters and be stored in the company-approved password manager. Company laptops must have full-disk encryption, automatic screen lock after 5 minutes and operating system patches applied within 7 days of release. Employees must use the corporate VPN on public Wi-Fi. Only authorized Communications Team spokespersons may speak to the media. Employees discussing ABC-related industry topics on personal social media must include the disclaimer Views are my own. Visitors must sign in, wear a temporary badge and remain escorted. Employees must lock laptops and store sensitive physical notes securely at the end of each day."
+  },
+  {
+    "id": "DOC002",
+    "title": "Employee Policy",
+    "source": "employee_policy.pdf",
+    "department": "HR",
+    "year": 2026,
+    "doc_type": "policy",
+    "page": 1,
+    "text": "ABC Technologies Employee Policy. Effective September 1, 2026. The standard workweek is 40 hours per week, Monday through Friday. Core collaboration hours are 10 AM to 3 PM in the employee's assigned regional time zone. Hub-office employees are expected to work on-site at least 3 days per week, on Tuesday, Wednesday and Thursday. Remote-designated roles require written approval from a Department VP. Full-time employees accrue 12 days of paid time off per calendar year, at one day per month. Up to 5 unused PTO days may carry over into the first quarter of the following year. Employees receive 10 paid sick leave days per year. Medical documentation is required for absences exceeding 3 consecutive business days. Primary caregivers receive 16 weeks of paid parental leave and secondary caregivers receive 6 weeks. ABC Technologies observes 11 scheduled public holidays annually. Airfare, lodging and conference fees exceeding 500 dollars require manager pre-approval through the Finance Portal. Domestic business travel meal allowance is up to 65 dollars per day and international travel meal allowance is up to 90 dollars per day. Alcohol is not reimbursable. Itemized receipts must be submitted within 30 calendar days. Employees must sign an NDA before accessing internal repositories. Proprietary source code, customer lists and unreleased product roadmaps must never be uploaded to unapproved third-party tools or personal cloud storage."
+  },
+  {
+    "id": "DOC003",
+    "title": "New Hire Onboarding Guide",
+    "source": "onboarding.docx",
+    "department": "HR",
+    "year": 2026,
+    "doc_type": "guide",
+    "page": 1,
+    "text": "ABC Technologies New Hire Onboarding Guide. Before Day 1, employees must complete digital tax forms, direct deposit setup and NDA signature in the HR Portal. Employees must confirm the shipping address for their workstation laptop and welcome kit. Corporate email credentials are sent to the personal email 48 hours before Day 1. Day 1 includes HR orientation, laptop configuration, MFA setup, Slack and GitHub provisioning and a meeting with the manager. Day 2 includes an architecture walkthrough, product demonstration and lunch with the onboarding buddy. Day 3 requires completion of Information Security Awareness Training and Anti-Harassment modules. Day 4 includes reviewing team sprint rituals, Jira and code repositories. Day 5 includes selecting a starter task or bug fix, submitting the first pull request and attending Friday All-Hands. During the first 30 days employees learn team workflows, complete compliance training, shadow customer calls and deliver a scoped contribution. During the first 60 days employees own a medium-sized feature, participate in peer reviews and establish cross-functional relationships. During the first 90 days employees deliver a project milestone independently, propose an improvement and complete a manager check-in."
+  },
+  {
+    "id": "DOC004",
+    "title": "Employee Handbook 2026",
+    "source": "employee_handbook.docx",
+    "department": "HR",
+    "year": 2026,
+    "doc_type": "handbook",
+    "page": 1,
+    "text": "ABC Technologies Employee Handbook 2026. The company mission is to build reliable, human-centered software infrastructure that simplifies complex enterprise workflows. Core values are Clarity Over Complexity, Ownership With Empathy and Continuous Curiosity. Salaried employees are paid semi-monthly on the 15th and the last business day of each month. Formal performance and compensation reviews take place twice annually, in June and December. Employees can advance through the Individual Contributor track or the Engineering and People Management track. Health, dental and vision coverage begins on the first employment day. ABC Technologies covers 90 percent of employee premiums and 75 percent of dependent premiums. The retirement plan includes a 4 percent dollar-for-dollar company match, vested immediately. The Learning and Development stipend is 1500 dollars per calendar year. The wellness and home-office allowance is 100 dollars per month. Employees with workplace concerns should first speak with their manager or HR Business Partner. Formal grievances are acknowledged within 48 hours and investigated confidentially within 10 business days."
+  },
+  {
+    "id": "DOC005",
+    "title": "Technical Notes",
+    "source": "technical_notes.txt",
+    "department": "Engineering",
+    "year": 2026,
+    "doc_type": "technical",
+    "page": 1,
+    "text": "ABC Knowledge and Workflow Platform technical notes. The platform uses AWS EKS Kubernetes 1.30. Kong Enterprise provides the API Gateway with TLS 1.3. The core backend uses Python 3.12 and Go 1.23. PostgreSQL 16 is the primary database with pgvector enabled. Redis 7.2 and Apache Kafka are used for caching and asynchronous ingestion. Search uses hybrid BM25 and dense vector retrieval. Raw document uploads are stored in Amazon S3 with SSE-KMS encryption. Standard read endpoints have a limit of 600 requests per minute. Document ingestion has a limit of 60 requests per minute and a maximum file payload of 25 MB. Supported document formats include PDF, DOCX, TXT and Markdown. The default chunk size is 512 tokens with 64-token overlap. PyMuPDF is used for PDF parsing. Python-docx is used for DOCX parsing. Standard deployment uses GitHub Actions, Amazon ECR and ArgoCD. If error rate exceeds 1.5 percent for more than 3 minutes or P99 latency exceeds 800 milliseconds, emergency rollback should be performed. SEV-1 incidents require response within 15 minutes, SEV-2 within 1 hour and SEV-3 are triaged the next business day."
+  },
+  {
+    "id": "DOC006",
+    "title": "Access Control Policy",
+    "source": "access_control.txt",
+    "department": "IT",
+    "year": 2026,
+    "doc_type": "sample_policy",
+    "page": 1,
+    "text": "Sample policy document created for the Week 7 assessment. Employees are granted only the access required for their assigned role. Access beyond the assigned role requires manager approval and must be time-limited. Access permissions must be reviewed periodically. When an employee changes roles or leaves the company, access must be reviewed and updated."
+  },
+  {
+    "id": "DOC007",
+    "title": "Incident Response Policy",
+    "source": "incident_response.txt",
+    "department": "Security",
+    "year": 2026,
+    "doc_type": "sample_policy",
+    "page": 1,
+    "text": "Sample policy document created for the Week 7 assessment. Security incidents must be reported immediately through the company security reporting channel. The report should include the time of discovery, affected systems, observed symptoms and actions already taken. Employees must not investigate beyond their authorization. The Security Team coordinates containment, investigation and recovery. Incident details must be shared only with authorized personnel."
+  },
+  {
+    "id": "DOC008",
+    "title": "Business Travel Policy",
+    "source": "travel_policy.txt",
+    "department": "Finance",
+    "year": 2026,
+    "doc_type": "sample_policy",
+    "page": 1,
+    "text": "Sample policy document created for the Week 7 assessment. All business travel must be approved through the travel portal before booking. International travel requires Department Head approval. Employees must select reasonable travel options and submit itemized receipts after the trip. Travel expenses must follow the company's expense reimbursement policy."
+  },
+  {
+    "id": "DOC009",
+    "title": "Older Employee Policy",
+    "source": "employee_policy_2024.pdf",
+    "department": "HR",
+    "year": 2024,
+    "doc_type": "outdated_policy",
+    "page": 1,
+    "text": "Sample outdated policy version for the metadata filtering experiment only. This historical policy stated that full-time employees received 15 days of annual paid time off per year. This document is superseded by the 2026 Employee Policy and must not be used to answer current employee questions."
+  }
+]
