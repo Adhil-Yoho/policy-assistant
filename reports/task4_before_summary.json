@@ -1,0 +1,17 @@
+{
+    "faithfulness": 0.9924242424242423,
+    "faithfulness_evaluated_count": 12,
+    "answer_relevancy": 0.7940932254854342,
+    "answer_relevancy_evaluated_count": 12,
+    "context_precision": 0.6249999999375,
+    "context_precision_evaluated_count": 12,
+    "context_recall": 0.9791666666666666,
+    "context_recall_evaluated_count": 12,
+    "source_recall": 0.9583333333333334,
+    "source_recall_evaluated_count": 12,
+    "correct_abstention_count": 3,
+    "unanswerable_question_count": 3,
+    "answerable_question_count": 12,
+    "llm_called_count": 12,
+    "evaluation_label": "before"
+}
