@@ -1,0 +1,13 @@
+question,relevant_source,rank_before,rank_after,hybrid_hit@3,rerank_hit@3,hit@5_before,hit@5_after
+What is the minimum password length?,company_guidelines.pdf,1,1,1,1,1,1
+What is the annual PTO entitlement?,employee_policy.pdf,3,1,1,1,1,1
+Which cloud platform does the engineering team use?,technical_notes.txt,1,1,1,1,1,1
+What is the maximum standard read request rate?,technical_notes.txt,1,1,1,1,1,1
+How much is the annual learning and development stipend?,employee_handbook.docx,1,1,1,1,1,1
+What is the parental leave duration for the primary caregiver?,employee_policy.pdf,1,1,1,1,1,1
+What should an employee do when using public Wi-Fi?,company_guidelines.pdf,1,1,1,1,1,1
+How can an employee obtain additional system permissions?,access_control.txt,1,1,1,1,1,1
+What should someone do immediately after discovering a security incident?,incident_response.txt,1,1,1,1,1,1
+What are the requirements for getting business travel approved?,travel_policy.txt,1,1,1,1,1,1
+What happens when an employee changes roles?,access_control.txt,1,1,1,1,1,1
+How does the company handle a serious production service incident?,technical_notes.txt,8,5,0,0,0,1

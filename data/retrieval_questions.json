@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the minimum password length?",
+    "relevant_source": "company_guidelines.pdf",
+    "type": "exact"
+  },
+  {
+    "question": "What is the annual PTO entitlement?",
+    "relevant_source": "employee_policy.pdf",
+    "type": "exact"
+  },
+  {
+    "question": "Which cloud platform does the engineering team use?",
+    "relevant_source": "technical_notes.txt",
+    "type": "exact"
+  },
+  {
+    "question": "What is the maximum standard read request rate?",
+    "relevant_source": "technical_notes.txt",
+    "type": "exact"
+  },
+  {
+    "question": "How much is the annual learning and development stipend?",
+    "relevant_source": "employee_handbook.docx",
+    "type": "exact"
+  },
+  {
+    "question": "What is the parental leave duration for the primary caregiver?",
+    "relevant_source": "employee_policy.pdf",
+    "type": "exact"
+  },
+  {
+    "question": "What should an employee do when using public Wi-Fi?",
+    "relevant_source": "company_guidelines.pdf",
+    "type": "meaning"
+  },
+  {
+    "question": "How can an employee obtain additional system permissions?",
+    "relevant_source": "access_control.txt",
+    "type": "meaning"
+  },
+  {
+    "question": "What should someone do immediately after discovering a security incident?",
+    "relevant_source": "incident_response.txt",
+    "type": "meaning"
+  },
+  {
+    "question": "What are the requirements for getting business travel approved?",
+    "relevant_source": "travel_policy.txt",
+    "type": "meaning"
+  },
+  {
+    "question": "What happens when an employee changes roles?",
+    "relevant_source": "access_control.txt",
+    "type": "meaning"
+  },
+  {
+    "question": "How does the company handle a serious production service incident?",
+    "relevant_source": "technical_notes.txt",
+    "type": "meaning"
+  }
+]

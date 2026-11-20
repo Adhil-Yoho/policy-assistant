@@ -1,0 +1,13 @@
+question,type,bm25_hit@3,vector_hit@3,hybrid_hit@3,bm25_latency,vector_latency,hybrid_latency
+What is the minimum password length?,exact,1,1,1,0.0001401000190526247,0.08698719996027648,0.010872500017285347
+What is the annual PTO entitlement?,exact,1,0,1,0.00011099991388618946,0.010114500066265464,0.010315899970009923
+Which cloud platform does the engineering team use?,exact,1,1,1,0.0001308000646531582,0.010769600048661232,0.012422800064086914
+What is the maximum standard read request rate?,exact,1,1,1,0.00019209994934499264,0.012419299921020865,0.012649400159716606
+How much is the annual learning and development stipend?,exact,1,1,1,0.00021359999664127827,0.012689499882981181,0.012776999967172742
+What is the parental leave duration for the primary caregiver?,exact,1,1,1,0.00022989977151155472,0.012514400063082576,0.012904699891805649
+What should an employee do when using public Wi-Fi?,meaning,1,1,1,0.0002196000423282385,0.012567100115120411,0.012995700119063258
+How can an employee obtain additional system permissions?,meaning,1,1,1,0.00018649990670382977,0.012401799904182553,0.01232529990375042
+What should someone do immediately after discovering a security incident?,meaning,1,1,1,0.00022699986584484577,0.012522300006821752,0.012876899912953377
+What are the requirements for getting business travel approved?,meaning,1,1,1,0.00020210002548992634,0.0115576998796314,0.010168700013309717
+What happens when an employee changes roles?,meaning,1,1,1,0.00011879997327923775,0.012304200092330575,0.011394999921321869
+How does the company handle a serious production service incident?,meaning,0,0,0,0.00015569990500807762,0.01014200015924871,0.009958100039511919

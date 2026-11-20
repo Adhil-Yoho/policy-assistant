@@ -1,0 +1,13 @@
+question,normal_hit@3,hyde_hit@3,normal_latency_seconds,hyde_latency_seconds
+What is the minimum password length?,1,1,0.07591450004838407,7.246915299911052
+What is the annual PTO entitlement?,0,1,0.010484799975529313,3.6189926001243293
+Which cloud platform does the engineering team use?,1,1,0.011771699879318476,5.971889599924907
+What is the maximum standard read request rate?,1,1,0.011855700053274632,3.338650800054893
+How much is the annual learning and development stipend?,1,1,0.011753799859434366,51.62669389997609
+What is the parental leave duration for the primary caregiver?,1,1,0.012766000116243958,5.046327299904078
+What should an employee do when using public Wi-Fi?,1,1,0.010254499968141317,7.3540242000017315
+How can an employee obtain additional system permissions?,1,1,0.0682413000613451,7.549992599990219
+What should someone do immediately after discovering a security incident?,1,1,0.03386510000564158,6.286114899907261
+What are the requirements for getting business travel approved?,1,1,0.009981299983337522,12.680728300008923
+What happens when an employee changes roles?,1,1,0.011736799962818623,10.036925800144672
+How does the company handle a serious production service incident?,0,0,0.010161400074139237,11.279615100007504
