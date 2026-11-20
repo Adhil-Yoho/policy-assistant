@@ -1,0 +1,4 @@
+prompt_type,manual_hallucination_flag
+basic,0
+context_citation_abstention,0
+context_only,0
