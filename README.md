@@ -310,7 +310,7 @@ Hit@3 measures whether the correct source appears within the first three results
 
 **Actual Hit@3 Results**
 
-| Retrieval method	Hit@3 |
+| Retrieval method | Hit@3 |
 |---|---|
 | BM25 | 0.9167 |
 | Vector | 0.8333 |
