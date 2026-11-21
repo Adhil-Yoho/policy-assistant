@@ -1,8 +1,5 @@
-main.py
 from openai import OpenAI
-
 from config import (OPENROUTER_API_KEY,OPENROUTER_MODEL,SCORE_THRESHOLD, CONTEXT_LIMIT, RESERVED_OUTPUT_TOKENS, FALLBACK)
-
 from retrieval import (retrieve_chunks, format_context, fit_context, count_tokens)
 
 
@@ -201,12 +198,12 @@ def run_question(question, k=4):
 
 
 answerable_questions = [
-    "How many casual leaves per year?",
+    "How many annual PTO days are provided to full-time employees?",
     "How many sick leave days are provided per year?",
     "How many unused PTO days can employees carry forward?",
     "What security practices are included in the company guidelines?",
     "What milestones are included in the employee onboarding plan?",
-    "What topics are covered in the technical notes?"
+    "What Kubernetes version does the platform use?"
 ]
 
 

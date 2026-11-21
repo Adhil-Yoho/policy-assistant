@@ -102,6 +102,157 @@ def fallback_result(
     }
 
 
+def retrieve_question_chunks(
+
+    question,
+
+    k=4,
+
+    department=None,
+
+    year=None
+
+):
+
+    """
+
+    Retrieve compound questions in separate parts.
+
+
+    This helps retrieve evidence for both parts of a
+
+    multi-part question instead of relying on one query.
+
+    """
+
+
+    if " and " in question.lower():
+
+
+        parts = question.split(" and ", 1)
+
+
+        queries = [
+
+            parts[0].strip(),
+
+            parts[1].strip()
+
+        ]
+
+
+    else:
+
+        queries = [question]
+
+
+    retrieved_lists = []
+
+
+    for query in queries:
+
+
+        chunks = retrieve_chunks(
+
+            query,
+
+            k=k,
+
+            department=department,
+
+            year=year
+
+        )
+
+
+        retrieved_lists.append(chunks)
+
+
+    merged = {}
+
+
+    for chunks in retrieved_lists:
+
+
+        for chunk in chunks:
+
+
+            chunk_id = chunk["chunk_id"]
+
+
+            if chunk_id not in merged:
+
+                merged[chunk_id] = chunk
+
+
+            elif chunk["score"] > merged[chunk_id]["score"]:
+
+                merged[chunk_id] = chunk
+
+
+    selected = []
+
+    selected_ids = set()
+
+
+    for chunks in retrieved_lists:
+
+
+        for chunk in chunks[:2]:
+
+
+            chunk_id = chunk["chunk_id"]
+
+
+            if chunk_id not in selected_ids:
+
+                selected.append(chunk)
+
+                selected_ids.add(chunk_id)
+
+
+    remaining = sorted(
+
+        [
+
+            chunk
+
+            for chunk_id, chunk in merged.items()
+
+            if chunk_id not in selected_ids
+
+        ],
+
+        key=lambda item: item["score"],
+
+        reverse=True
+
+    )
+
+
+    for chunk in remaining:
+
+
+        if len(selected) >= k:
+
+            break
+
+
+        selected.append(chunk)
+
+
+    selected.sort(
+
+        key=lambda item: item["score"],
+
+        reverse=True
+
+    )
+
+
+    return selected[:k]
+
+
 def answer(
     question,
     k=4,
@@ -109,7 +260,7 @@ def answer(
     year=None
 ):
 
-    chunks = retrieve_chunks(
+    chunks = retrieve_question_chunks(
         question,
         k=k,
         department=department,
