@@ -548,7 +548,7 @@ Evaluate the RAG pipeline using a fixed set of questions and reference answers, 
 **Golden Dataset** – `data/golden.jsonl`
 The golden dataset contains 15 questions
 
-| Question type	Count |
+| Question type	| Count |
 |---|---|
 | Simple | 8 |
 | Multi-chunk	| 4 |
